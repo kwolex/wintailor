@@ -51,7 +51,7 @@ WinTailor does it **once — in the image itself**. Install Windows from that dr
 | 💻 **Install on any PC** | Bypasses the Windows 11 TPM 2.0 / Secure Boot / CPU / RAM checks; setup without internet or a Microsoft account |
 | 🤖 **Unattended setup** | Skips the license and privacy screens, creates a local user, sets region, time zone and computer name |
 | 📁 **Your files** | Installers, drivers, configs end up in `C:\Setup` or on the desktop right after setup. Just drag them into the window from Explorer |
-| 📊 **Build report** | What was actually removed, what failed and how much smaller the system became |
+| 📊 **Build report** | What was actually removed, what failed and how much smaller the system became. The full log and a SHA-256 checksum are saved next to the ISO |
 | 💾 **USB writer** | Boots on both UEFI and legacy BIOS; a large `install.wim` is split automatically |
 | 🧰 **Ventoy** | If the drive has [Ventoy](https://www.ventoy.net), the image is simply copied to it — no formatting, your other ISOs stay |
 
@@ -85,7 +85,7 @@ Russian and English UI, dark and light themes, presets, keyboard shortcuts (F1 f
 3. *Optional but useful:* click **“Scan image”** — the app shows everything inside and the size of each app. The first scan takes a few minutes.
 4. **Pick a profile**, or go through the Apps, Components and Tweaks pages and check what you need. When in doubt, leave the defaults — they're safe.
 5. *Optional:* on the **Unattended** page enable skipping the extra screens and creating a user; on the **Your files** page add program installers or drivers.
-6. **Build page** → “Build image”. It usually takes 20–60 minutes, and a report opens at the end. By default the ISO is saved to `Documents\WinTailor` — the path is shown and can be changed right there, next to the “Open folder” button.
+6. **Build page** → “Build image”. Before it starts you'll see the build plan — the full list of what will be removed and changed. The build itself usually takes 20–60 minutes, and a report opens at the end. By default the ISO is saved to `Documents\WinTailor` — the path is shown and can be changed right there, next to the “Open folder” button.
 7. **USB drive page:** insert a drive of 8 GB or more, select it and click “Write to USB”. On a Ventoy drive the image is simply copied. Or write the ISO with any other tool.
 8. Boot from the drive (usually F8, F11 or F12 at power-on) and install Windows as usual.
 
@@ -144,7 +144,7 @@ The app installs to `Program Files`; its working files (the image cache — 5–
 
 ## Report a bug
 
-Found a bug or have an idea — open an [issue](https://github.com/kwolex/wintailor/issues). Attach the report file `*.report.txt` (next to the built ISO) or the log text from the Build page (“Copy log” button).
+Found a bug or have an idea — open an [issue](https://github.com/kwolex/wintailor/issues). Attach the log `*.log` and the report `*.report.txt` — both are next to the built ISO (the log is saved even when the build fails).
 
 ---
 
