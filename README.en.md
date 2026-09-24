@@ -44,17 +44,17 @@ WinTailor does it **once — in the image itself**. Install Windows from that dr
 | | |
 |---|---|
 | 🧹 **39 apps** | Bing, Copilot, Cortana, Teams, Outlook, Clipchamp, Xbox, Solitaire, Tips, Dev Home and more — with the size of each |
-| ⚙️ **37 tweaks** | Telemetry, ads, widgets, classic context menu, dark theme, Start without recommendations, File Explorer without Home and Gallery, gaming optimizations |
+| ⚙️ **38 tweaks** | Telemetry, ads, widgets, classic context menu, dark theme, Start without recommendations, File Explorer without Home and Gallery, gaming optimizations |
 | 🧩 **14 components** | OneDrive, Edge, Internet Explorer, WordPad, PowerShell 2.0, Recall, face recognition, handwriting and more |
 | 🔍 **Image scan** | Everything that's not in the catalog is listed separately with a risk rating: “safe”, “caution”, “dangerous” |
 | 🎮 **Ready-made profiles** | “Gaming”, “Office”, “Minimal”, “Low-end PC” — one click, click again to undo |
 | 💻 **Install on any PC** | Bypasses the Windows 11 TPM 2.0 / Secure Boot / CPU / RAM checks; setup without internet or a Microsoft account |
-| 🤖 **Unattended setup** | Skips the license and privacy screens, creates a local user, sets region, time zone and computer name |
+| 🤖 **Unattended setup** | Skips the license and privacy screens, creates a local user with a non-expiring password, sets region, time zone and computer name |
 | 📁 **Your files** | Installers, drivers, configs end up in `C:\Setup` or on the desktop right after setup. Just drag them into the window from Explorer |
 | 📊 **Build report** | What was actually removed, what failed and how much smaller the system became. The full log and a SHA-256 checksum are saved next to the ISO |
 | 💾 **USB writer** | Boots on both UEFI and legacy BIOS; a large `install.wim` is split automatically |
 | 🧰 **Ventoy** | If the drive has [Ventoy](https://www.ventoy.net), the image is simply copied to it — no formatting, your other ISOs stay |
-| 🗂️ **Several editions** | For example, Pro and Home in one ISO — Setup asks which one to install |
+| 🗂️ **Several editions** | Check, for example, Pro and Home — Setup asks which one to install |
 | ⏯️ **Resume a build** | If a build was interrupted (a crash, a power cut, “Cancel”), the next one continues where it stopped |
 | 🏷️ **Manufacturer info** | Your own manufacturer, model, support details and logo in “Settings → System → About” |
 | 🔄 **One-click update** | The program downloads and installs the new version itself |
@@ -86,7 +86,7 @@ Russian and English UI, dark and light themes, presets, keyboard shortcuts (F1 f
 ## How to use
 
 1. **Download a Windows ISO** from Microsoft: [Windows 11](https://www.microsoft.com/software-download/windows11) or [Windows 10](https://www.microsoft.com/software-download/windows10) (“Create installation media” → ISO file).
-2. **Image page:** choose the ISO and click “Read image”. Pick the edition you have a license for (usually Pro or Home).
+2. **Image page:** choose the ISO and click “Read image”. Check the edition you have a license for (usually Pro or Home).
 3. *Optional but useful:* click **“Scan image”** — the app shows everything inside and the size of each app. The first scan takes a few minutes.
 4. **Pick a profile**, or go through the Apps, Components and Tweaks pages and check what you need. When in doubt, leave the defaults — they're safe.
 5. *Optional:* on the **Unattended** page enable skipping the extra screens and creating a user; on the **Your files** page add program installers or drivers.
