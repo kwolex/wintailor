@@ -58,6 +58,7 @@ WinTailor does it **once — in the image itself**. Install Windows from that dr
 | ⏯️ **Resume a build** | If a build was interrupted (a crash, a power cut, “Cancel”), the next one continues where it stopped |
 | 🏷️ **Manufacturer info** | Your own manufacturer, model, support details and logo in “Settings → System → About” |
 | 🔄 **One-click update** | The program downloads and installs the new version itself |
+| 🔔 **No need to watch the screen** | Tray icon with build progress, a notification and sound when done, optionally straight to writing a USB drive |
 
 Russian and English UI, dark and light themes, presets, keyboard shortcuts (F1 for the list). Your checkboxes are remembered between launches, the build log can be copied, and the taskbar button shows the build progress — with a notification when it's done.
 
