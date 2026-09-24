@@ -44,7 +44,7 @@ WinTailor does it **once — in the image itself**. Install Windows from that dr
 | | |
 |---|---|
 | 🧹 **39 apps** | Bing, Copilot, Cortana, Teams, Outlook, Clipchamp, Xbox, Solitaire, Tips, Dev Home and more — with the size of each |
-| ⚙️ **27 tweaks** | Telemetry, ads, widgets, classic context menu, left-aligned taskbar, file extensions, gaming optimizations |
+| ⚙️ **37 tweaks** | Telemetry, ads, widgets, classic context menu, dark theme, Start without recommendations, File Explorer without Home and Gallery, gaming optimizations |
 | 🧩 **14 components** | OneDrive, Edge, Internet Explorer, WordPad, PowerShell 2.0, Recall, face recognition, handwriting and more |
 | 🔍 **Image scan** | Everything that's not in the catalog is listed separately with a risk rating: “safe”, “caution”, “dangerous” |
 | 🎮 **Ready-made profiles** | “Gaming”, “Office”, “Minimal”, “Low-end PC” — one click, click again to undo |
@@ -54,6 +54,10 @@ WinTailor does it **once — in the image itself**. Install Windows from that dr
 | 📊 **Build report** | What was actually removed, what failed and how much smaller the system became. The full log and a SHA-256 checksum are saved next to the ISO |
 | 💾 **USB writer** | Boots on both UEFI and legacy BIOS; a large `install.wim` is split automatically |
 | 🧰 **Ventoy** | If the drive has [Ventoy](https://www.ventoy.net), the image is simply copied to it — no formatting, your other ISOs stay |
+| 🗂️ **Several editions** | For example, Pro and Home in one ISO — Setup asks which one to install |
+| ⏯️ **Resume a build** | If a build was interrupted (a crash, a power cut, “Cancel”), the next one continues where it stopped |
+| 🏷️ **Manufacturer info** | Your own manufacturer, model, support details and logo in “Settings → System → About” |
+| 🔄 **One-click update** | The program downloads and installs the new version itself |
 
 Russian and English UI, dark and light themes, presets, keyboard shortcuts (F1 for the list). Your checkboxes are remembered between launches, the build log can be copied, and the taskbar button shows the build progress — with a notification when it's done.
 
